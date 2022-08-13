@@ -5,7 +5,7 @@
 - template to read files
   - day_7 fn: read_dataset
 - read chars from file as integer
-  . character as i32 - 0x30
+  - character as i32 - 0x30
 
 ## TODOs
 
