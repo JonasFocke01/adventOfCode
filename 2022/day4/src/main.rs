@@ -1,8 +1,5 @@
-use std::collections::btree_map::Range;
-use std::env::current_dir;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
-use std::str::FromStr;
 
 fn part1() -> u64 {
     let filename = "input.txt";
