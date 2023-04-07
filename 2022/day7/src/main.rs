@@ -14,7 +14,7 @@ struct Directory {
 impl Directory {
     fn display(&self, indent_level: u8) {
         let mut indent_string = String::new();
-        (0..indent_level).for_each(|i| indent_string.push(' '));
+        (0..indent_level).for_each(|_| indent_string.push(' '));
         println!("{}{}/: {}", indent_string, self.name, self.size);
         self.sub_dirs
             .iter()
